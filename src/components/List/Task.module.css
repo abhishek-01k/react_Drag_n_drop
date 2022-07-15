@@ -1,0 +1,146 @@
+.container{
+    min-width: 272px;
+    width: 272px;
+    background-color: hsla(0,0%,100%,.2);
+    margin: 0 4px;
+    border-radius: 3px;
+    padding: 10px 8px 8px;
+}
+
+.container:hover{
+    background-color: hsla(0,0%,100%,.4);
+}
+
+.addAnotherListBtn{
+    display: flex;
+    align-items: center;
+    color: #5e6c84;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 2px 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.plusSign{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    margin-right: 4px;
+}
+
+.inputContainer{
+    min-width: 272px;
+    width: 272px;
+    background-color: #ebecf0;
+    margin: 0 4px;
+    border-radius: 3px;
+    padding: 10px 8px 8px;
+}
+
+.inputContainer input{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #0079bf;
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.addListDiv{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.addBtn{
+    width: max-content;
+    color: #fff;
+    background-color: #0079bf;
+    padding: 0 12px;
+}
+
+.addListDiv span{
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    color: #42526e;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Add Task CSS */
+.addTaskBtn{
+    display: flex;
+    align-items: center;
+    color: #5e6c84;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.addTaskBtn:hover{
+    background-color: rgba(9,30,66,.0784313725490196);
+    color: #172b4d;
+}
+
+.addTaskBtn span{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    margin-right: 4px;
+}
+
+.inputTaskContainer{
+    background-color: #ebecf0;
+    margin: 0 4px;
+    border-radius: 3px;
+    padding: 10px 8px 8px;
+}
+
+
+.inputTaskContainer input{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #0079bf;
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}

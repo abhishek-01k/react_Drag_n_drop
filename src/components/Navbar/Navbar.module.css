@@ -1,0 +1,141 @@
+.header{
+    background-color: #004269;
+    height: 44px;
+    padding: 6px 4px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftHeader{
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.btnDiv{
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar_btn{    
+    width: 30px;
+    height: 20px;
+    position: relative;
+    top: 2px;
+}
+
+.logoDiv{
+    border-radius: 3px;
+    color: #fff;
+    height: 32px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 8px;
+}
+.logoDiv:hover{
+    background-color: hsla(0,0%,100%,.3);
+}
+
+
+.logo{
+    background-image: url('../../assets/logo/logo_trello.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 9px;
+    width: 75px;
+    height: 35px;
+    padding: 8px 0;
+    cursor: pointer;
+    margin: 0;
+}
+
+.menuItemsDiv{
+    padding: 0 12px;
+    border-radius: 3px;
+    color: #fff;
+    height: 32px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.menuItemsDiv:hover,.createBtn:hover,.logoDiv:hover,.btnDiv:hover,.dangerBtn:hover{
+    background-color: hsla(0,0%,100%,.3);
+}
+
+.dropdown_img{
+    width: 10px;
+    margin-left: 6px;
+}
+
+.createBtn{
+    width: max-content;
+    color: #fff;
+    font-size: 14px;
+    background-color: rgba(0,0,0,.24);
+    padding: 0 12px;
+    margin-left: 12px;
+}
+
+.searchBar{
+    position: relative;
+    margin-right: 8px;
+}
+
+.searchBar > input{
+    width: 250px;
+    height: 32px;
+    border: 1px solid hsla(0,0%,100%,.25);
+    border-radius: 3px;
+    /* background-color: hsla(0,0%,100%,.3); */
+    color: hsla(0,0%,100%,.5);
+    padding-left: 30px;
+    outline: none;
+    background-color: transparent;
+}
+
+.searchBar > input:focus{
+    background-color:#0000;
+    color:#fff;
+}
+
+.searchBar svg{
+    position: absolute;
+    margin-left: 3px;
+    left: 5px;
+    top: 7px;
+    width: 15px;
+    height: 20px;
+    font-size: 20px;
+    color: hsla(0,0%,100%,.8);
+}
+
+.dangerBtn{
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    color: #fff;
+}
+

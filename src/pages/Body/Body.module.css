@@ -1,0 +1,11 @@
+.bodyContainer{
+    min-height:100vh;
+    display: flex;
+}
+
+.bodyDiv{
+     width: calc(100% - 40px);
+    margin-top: 44px;
+    margin-left: 40px;
+    overflow: hidden;
+}
